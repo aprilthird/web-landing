@@ -1,0 +1,55 @@
+﻿ul.pricing-table {
+    padding: 0 0 0 0;
+}
+
+
+/*
+             768px         992px         1200px
+    xs (phone) | sm (tablet) | md (laptop) | lg (desktop) 
+*/
+
+@media only screen and (max-width: 768px) {
+    ul.pricing-table {
+        padding: 0 0 0 0;
+    }
+    ul.pricing-table>li {
+        position: relative;
+        width: 80%;
+        height: 50%;
+        left: 10%;
+        margin: 0 0 4% 0;
+    }
+    
+    ul.pricing-table>li>span {
+        font-size: 8.0vw;
+    }
+    ul.pricing-table>li>h3 {
+        font-size: 10.0vw;
+    }
+    ul.benefits-list>li {
+        font-size: 3.0vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    ul.pricing-table>li>span {
+        font-size: 3.5vw;
+    }    
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    ul.pricing-table>li>span {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {    
+    ul.pricing-table {
+        margin: 0 -4% 0 0;
+    }
+
+    ul.pricing-table>li>span {
+        font-size: 3.5vw;
+    }
+}

@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
 <!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
 <!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
@@ -9,24 +9,27 @@
 <head>
     <meta charset="UTF-8">
     <title>FitGym - UPC</title>
-	<meta name="description" content="App de Gimnasio">
-	<meta name="keywords" content="App de Gimnasio">
-	<meta name="author" content="FitGym">
+    <meta name="description" content="App de Gimnasio">
+    <meta name="keywords" content="App de Gimnasio">
+    <meta name="author" content="FitGym">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="shortcut icon" href="assets/img/freeze/logo1.png">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="../assets/img/freeze/logo1.png">
+
     <!-- Bootstrap 3.3.2 -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/js/rs-plugin/css/settings.css">
+
+    <link rel="stylesheet" href="../assets/css/styles.css">
     
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/js/rs-plugin/css/settings.css">
-		
-    <link rel="stylesheet" href="assets/css/styles.css">
-	
-    <script type="text/javascript" src="assets/js/modernizr.custom.32033.js"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="../assets/css/customstyles.css" />
+
+    <script type="text/javascript" src="../assets/js/modernizr.custom.32033.js"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -35,90 +38,98 @@
 </head>
 
 <body>
-    
+
     <div class="pre-loader">
         <div class="load-con">
-            <img src="assets/img/freeze/logo1.png" class="animated fadeInDown" alt="">
+            <img src="../assets/img/freeze/logo1.png" class="animated fadeInDown" alt="">
             <div class="spinner">
-              <div class="bounce1"></div>
-              <div class="bounce2"></div>
-              <div class="bounce3"></div>
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
             </div>
         </div>
     </div>
-   
-    <header>
-        
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="fa fa-bars fa-lg"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/freeze/logo2.png" alt="" class="logo" width="150" height="60">
-                        </a>
-                    </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-                            <li><a href="#about">about</a>
-                            </li>
-                            <li><a href="#features">features</a>
-                            </li>
-                            <li><a href="#reviews">team</a>
-                            </li>
-                            <li><a href="#screens">screens</a>
-                            </li>
-                            <li><a href="#demo">interviews</a>
-                            </li>
-                            <li><a class="getApp" href="#pricing">subscription</a>
-                            </li>
-                            <li><a href="#contact">contact</a>
-                            </li>
-							<li><a class="btn btn-primary inverse btn-lg" href="index1.html">Client</a>
-                            </li>
-                        </ul>
-                    </div>
-					
-                    <!-- /.navbar-collapse -->
+    <header>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="fa fa-bars fa-lg"></span>
+                    </button>
+                    <a class="navbar-brand" href="home.html">
+                        <img src="../assets/img/freeze/logo2.png" alt="" class="logo" width="150" height="60">
+                    </a>
                 </div>
-                <!-- /.container-->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#about">about</a>
+                        </li>
+                        <li>
+                            <a href="#features">features</a>
+                        </li>
+                        <li>
+                            <a href="#reviews">team</a>
+                        </li>
+                        <li>
+                            <a href="#screens">screens</a>
+                        </li>
+                        <li>
+                            <a href="#demo">interviews</a>
+                        </li>
+                        <li>
+                            <a class="getApp" href="#pricing">subscription</a>
+                        </li>
+                        <li>
+                            <a href="#contact">contact</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-primary inverse btn-lg" href="../client/home.html">Client</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-->
         </nav>
 
-        
+
         <!--RevSlider-->
         <div class="tp-banner-container">
-            <div class="tp-banner" >
+            <div class="tp-banner">
                 <ul>
                     <!-- SLIDE  -->
-                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="../assets/img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption lfl fadeout hidden-xs"
-                            data-x="left"
-                            data-y="bottom"
-                            data-hoffset="30"
-                            data-voffset="0"
-                            data-speed="500"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="assets/img/freeze/inicio.png" width="450" height="500" alt="">
+                             data-x="left"
+                             data-y="bottom"
+                             data-hoffset="30"
+                             data-voffset="0"
+                             data-speed="500"
+                             data-start="700"
+                             data-easing="Power4.easeOut">
+                            <img src="../assets/img/freeze/inicio.png" width="450" height="500" alt="">
                         </div>
 
                         <div class="tp-caption lfl fadeout visible-xs"
-                            data-x="left"
-                            data-y="center"
-                            data-hoffset="700"
-                            data-voffset="0"
-                            data-speed="500"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="assets/img/freeze/iphone-freeze.png" alt="">
+                             data-x="left"
+                             data-y="center"
+                             data-hoffset="700"
+                             data-voffset="0"
+                             data-speed="500"
+                             data-start="700"
+                             data-easing="Power4.easeOut">
+                            <img src="../assets/img/freeze/iphone-freeze.png" alt="">
                         </div>
 
                         <div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
@@ -140,85 +151,85 @@
 
                     </li>
                     <!-- SLIDE 2 -->
-                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="../assets/img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption lfb fadeout hidden-xs"
-                            data-x="center"
-                            data-y="bottom"
-                            data-hoffset="0"
-                            data-voffset="0"
-                            data-speed="1000"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="assets/img/freeze/1.png" alt="">
+                             data-x="center"
+                             data-y="bottom"
+                             data-hoffset="0"
+                             data-voffset="0"
+                             data-speed="1000"
+                             data-start="700"
+                             data-easing="Power4.easeOut">
+                            <img src="../assets/img/freeze/1.png" alt="">
                         </div>
 
-                        
+
                         <div class="tp-caption large_white_light sft" data-x="center" data-y="250" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1400" data-easing="Power4.easeOut">
                             <b>Be a different</b> GYM! <i class="fa fa-building-o"></i>
                         </div>
-                        
-                        
+
+
                     </li>
 
                     <!-- SLIDE 3 -->
-                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
                         <!-- MAIN IMAGE -->
-                        <img src="assets/img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="../assets/img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption customin customout hidden-xs"
-                            data-x="right"
-                            data-y="center"
-                            data-hoffset="0"
-                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                            data-voffset="50"
-                            data-speed="1000"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="assets/img/freeze/2.png" alt="">
+                             data-x="right"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-voffset="50"
+                             data-speed="1000"
+                             data-start="700"
+                             data-easing="Power4.easeOut">
+                            <img src="../assets/img/freeze/2.png" alt="">
                         </div>
 
                         <div class="tp-caption customin customout visible-xs"
-                            data-x="center"
-                            data-y="center"
-                            data-hoffset="0"
-                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                            data-voffset="0"
-                            data-speed="1000"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="assets/img/freeze/Slides/family-freeze.png" alt="">
+                             data-x="center"
+                             data-y="center"
+                             data-hoffset="0"
+                             data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                             data-voffset="0"
+                             data-speed="1000"
+                             data-start="700"
+                             data-easing="Power4.easeOut">
+                            <img src="../assets/img/freeze/Slides/family-freeze.png" alt="">
                         </div>
 
                         <div class="tp-caption lfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="400" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
                             <a href="#getApp" class="btn btn-primary inverse btn-lg">Purchase</a>
                         </div>
 
-                        
+
                         <div class="tp-caption mediumlarge_light_white sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="1000" data-start="1000" data-easing="Power4.easeOut">
-                           Join innovation
+                            Join innovation
 
                         </div>
                         <div class="tp-caption mediumlarge_light_white sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
-                           Adapt your style
+                            Adapt your style
                         </div>
                         <div class="tp-caption small_light_white sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="80" data-speed="1000" data-start="1600" data-easing="Power4.easeOut">
-                           <p>Everything you wanted for your Gym in a mobile app.<br>Loyalty to your customers and provides an exclusive service.</p>
+                            <p>Everything you wanted for your Gym in a mobile app.<br>Loyalty to your customers and provides an exclusive service.</p>
                         </div>
 
                         <div class="tp-caption lfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="160" data-speed="1000" data-start="1800" data-easing="Power4.easeOut">
                             <a href="#getApp" class="btn btn-primary inverse btn-lg">Purchase</a>
                         </div>
-                        
-                        
+
+
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -228,9 +239,9 @@
 
 
     <div class="wrapper">
-		<section id="about">
+        <section id="about">
             <div class="container">
-                
+
                 <div class="section-heading scrollpoint sp-effect3">
                     <h1>About App</h1>
                     <div class="divider"></div>
@@ -242,24 +253,24 @@
                         <div class="about-item scrollpoint sp-effect2">
                             <i class="fa fa-download fa-2x"></i>
                             <h3>Easy setup</h3>
-                            <p>Download in Android or iOS. Just install it and start enjoying the experience Fit.</p>
+                            <p>Download in Android or iOS. Enjoy Fit experience in your device.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                    <div class="col-md-3 col-sm-3 col-xs-6">
                         <div class="about-item scrollpoint sp-effect5">
                             <i class="fa fa-mobile fa-2x"></i>
                             <h3>On-the-go</h3>
-                            <p>We focus on usability and scalability.</p>
+                            <p>We focus on usability and scalability. Check up your Gym and clients anywhere.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                    <div class="col-md-3 col-sm-3 col-xs-6">
                         <div class="about-item scrollpoint sp-effect5">
                             <i class="fa fa-users fa-2x"></i>
                             <h3>Social connect</h3>
                             <p>Your clients can find your application quickly and use it.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                    <div class="col-md-3 col-sm-3 col-xs-6">
                         <div class="about-item scrollpoint sp-effect1">
                             <i class="fa fa-sliders fa-2x"></i>
                             <h3>Dedicated support</h3>
@@ -285,7 +296,7 @@
                             </a>
                             <div class="media-body">
                                 <h3 class="media-heading">User Settings</h3>
-                               Your trainers will see and update your profile.
+                                Your trainers will see and update your profile.
                             </div>
                         </div>
                         <div class="media text-right feature">
@@ -303,7 +314,7 @@
                             </a>
                             <div class="media-body">
                                 <h3 class="media-heading">Food Diet</h3>
-                              As trainers can create the food plan for your clients.
+                                As trainers can create the food plan for your clients.
                             </div>
                         </div>
                         <div class="media text-right feature">
@@ -312,7 +323,7 @@
                             </a>
                             <div class="media-body">
                                 <h3 class="media-heading">Your Clients</h3>
-                            Manage your clients, create your accounts and update your data as your progress.    
+                                Manage your clients, create your accounts and update your data as your progress.
                             </div>
                         </div>
                         <div class="media text-right feature">
@@ -325,12 +336,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4" >
-                        <img src="assets/img/freeze/3.png" class="img-responsive scrollpoint sp-effect5" alt="">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="../assets/img/freeze/3.png" class="img-responsive scrollpoint sp-effect5" alt="">
                     </div>
                     <div class="col-md-4 col-sm-4 scrollpoint sp-effect2">
                         <div class="media feature">
-                            <a class="pull-left" >
+                            <a class="pull-left">
                                 <i class="fa fa-map-marker fa-2x"></i>
                             </a>
                             <div class="media-body">
@@ -384,8 +395,10 @@
                 <div class="section-heading inverse scrollpoint sp-effect3">
                     <h1>Development Team</h1>
                     <div class="divider"></div>
-                    <p>We are 4 students of the Software Engineering degree from UPC.
-					<br>We have a "TeamGym" startups and we created this template for gyms.</p>
+                    <p>
+                        We are 4 students of the Software Engineering degree from UPC.
+                        <br>We have a "TeamGym" startups and we created this template for gyms.
+                    </p>
                 </div>
                 <div class="row">
                     <div class="col-md-10 col-md-push-1 scrollpoint sp-effect3">
@@ -394,7 +407,7 @@
                                 <div class="row">
                                     <div class="col-md-2">
                                         <div class="review-person">
-                                            <img src="assets/img/freeze/team/Jeffrey.jpg" alt="" class="img-responsive">
+                                            <img src="../assets/img/freeze/team/Jeffrey.jpg" alt="" class="img-responsive">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
@@ -404,8 +417,8 @@
                                                 - Jeffrey Rojas <small>(Software Developer)</small>
                                                 <span>
                                                     <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="https://www.facebook.com/jeffrey.rojasmontes" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+                                                    <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
+                                                    <a href="https://www.facebook.com/jeffrey.rojasmontes" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
                                                 </span>
                                             </p>
                                         </div>
@@ -416,7 +429,7 @@
                                 <div class="row">
                                     <div class="col-md-2">
                                         <div class="review-person">
-                                            <img src="assets/img/freeze/team/Yanira.jpg" alt="" class="img-responsive">
+                                            <img src="../assets/img/freeze/team/Yanira.jpg" alt="" class="img-responsive">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
@@ -426,8 +439,8 @@
                                                 - Yanira Gutiérrez <small>(Software Developer)</small>
                                                 <span>
                                                     <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="https://www.facebook.com/yanirasoraya" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+                                                    <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
+                                                    <a href="https://www.facebook.com/yanirasoraya" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
                                                 </span>
                                             </p>
                                         </div>
@@ -438,7 +451,7 @@
                                 <div class="row">
                                     <div class="col-md-2">
                                         <div class="review-person">
-                                            <img src="assets/img/freeze/team/Jose.jpg" alt="" class="img-responsive">
+                                            <img src="../assets/img/freeze/team/Jose.jpg" alt="" class="img-responsive">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
@@ -448,19 +461,19 @@
                                                 - José Vásquez <small>(Software Developer)</small>
                                                 <span>
                                                     <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="https://www.facebook.com/profile.php?id=100004197060544" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+                                                    <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
+                                                    <a href="https://www.facebook.com/profile.php?id=100004197060544" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
                                                 </span>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-							<div class="review rollitin">
+                            <div class="review rollitin">
                                 <div class="row">
                                     <div class="col-md-2">
                                         <div class="review-person">
-                                            <img src="assets/img/freeze/team/Andrea.jpg" alt="" class="img-responsive">
+                                            <img src="../assets/img/freeze/team/Andrea.jpg" alt="" class="img-responsive">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
@@ -470,19 +483,19 @@
                                                 - Andrea Valentín <small>(Software Developer)</small>
                                                 <span>
                                                     <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="https://www.facebook.com/andvalentind" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+                                                    <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
+                                                    <a href="https://www.facebook.com/andvalentind" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
                                                 </span>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-							<div class="review rollitin">
+                            <div class="review rollitin">
                                 <div class="row">
                                     <div class="col-md-2">
                                         <div class="review-person">
-                                            <img src="assets/img/freeze/team/Gustavo.png" alt="" class="img-responsive">
+                                            <img src="../assets/img/freeze/team/Gustavo.png" alt="" class="img-responsive">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
@@ -492,8 +505,8 @@
                                                 - Gustavo Navarro <small>(Software Developer)</small>
                                                 <span>
                                                     <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
-													<a href="https://www.facebook.com/yojamba.rlz" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+                                                    <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i>&nbsp; &nbsp;</a>
+                                                    <a href="https://www.facebook.com/yojamba.rlz" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
                                                 </span>
                                             </p>
                                         </div>
@@ -521,69 +534,81 @@
                     <a href="javascript:void(0)" class="button js-filter-two">Trainer Access</a>
                     <a href="javascript:void(0)" class="button js-filter-three">Client Access</a>
                 </div>
-                <div class="slider filtering scrollpoint sp-effect5" >
+                <div class="slider filtering scrollpoint sp-effect5">
                     <div class="one">
-						<a href="assets/img/freeze/wireframes/GC1.png">
-                        <img src="assets/img/freeze/wireframes/GC1.png" width="200" height="355" alt="">
-                        <h4>Home Page</h4></a>
+                        <a href="../assets/img/freeze/wireframes/GC1.png">
+                            <img src="../assets/img/freeze/wireframes/GC1.png" width="200" height="355" alt="">
+                            <h4>Home Page</h4>
+                        </a>
                     </div>
                     <div class="one">
-						<a href="assets/img/freeze/wireframes/GC2.png">
-                        <img src="assets/img/freeze/wireframes/GC2.png" width="200" height="355" alt="">
-                        <h4>Subscription Type</h4></a>
+                        <a href="../assets/img/freeze/wireframes/GC2.png">
+                            <img src="../assets/img/freeze/wireframes/GC2.png" width="200" height="355" alt="">
+                            <h4>Subscription Type</h4>
+                        </a>
                     </div>
                     <div class="two">
-						<a href="assets/img/freeze/wireframes/PT4.png">
-                        <img src="assets/img/freeze/wireframes/PT4.png" width="200" height="355" alt="">
-                        <h4>Clients</h4></a>
+                        <a href="../assets/img/freeze/wireframes/PT4.png">
+                            <img src="../assets/img/freeze/wireframes/PT4.png" width="200" height="355" alt="">
+                            <h4>Clients</h4>
+                        </a>
                     </div>
                     <div class="two">
-						<a href="assets/img/freeze/wireframes/PT8.png">
-                        <img src="assets/img/freeze/wireframes/PT8.png" width="200" height="355" alt="">
-                        <h4>Food Diet</h4></a>
+                        <a href="../assets/img/freeze/wireframes/PT8.png">
+                            <img src="../assets/img/freeze/wireframes/PT8.png" width="200" height="355" alt="">
+                            <h4>Food Diet</h4>
+                        </a>
                     </div>
                     <div class="two">
-						<a href="assets/img/freeze/wireframes/PT10.png">
-                        <img src="assets/img/freeze/wireframes/PT10.png" width="200" height="355" alt="">
-                        <h4>Routines</h4></a>
+                        <a href="../assets/img/freeze/wireframes/PT10.png">
+                            <img src="../assets/img/freeze/wireframes/PT10.png" width="200" height="355" alt="">
+                            <h4>Routines</h4>
+                        </a>
                     </div>
                     <div class="two">
-						<a href="assets/img/freeze/wireframes/PT12.png">
-                        <img src="assets/img/freeze/wireframes/PT12.png" width="200" height="355" alt="">
-                        <h4>Edit Routine</h4></a>
+                        <a href="../assets/img/freeze/wireframes/PT12.png">
+                            <img src="../assets/img/freeze/wireframes/PT12.png" width="200" height="355" alt="">
+                            <h4>Edit Routine</h4>
+                        </a>
                     </div>
                     <div class="two">
-						<a href="assets/img/freeze/wireframes/PT13.png">
-                        <img src="assets/img/freeze/wireframes/PT13.png" width="200" height="355" alt="">
-                        <h4>Client Evaluation</h4></a>
+                        <a href="../assets/img/freeze/wireframes/PT13.png">
+                            <img src="../assets/img/freeze/wireframes/PT13.png" width="200" height="355" alt="">
+                            <h4>Client Evaluation</h4>
+                        </a>
                     </div>
-					<div class="three">
-						<a href="assets/img/freeze/wireframes/C3.png">
-						<img src="assets/img/freeze/wireframes/C3.png" width="200" height="355" alt="" class="img-thumbnail">
-                       
-                        <h4>Login - Client</h4></a>
+                    <div class="three">
+                        <a href="../assets/img/freeze/wireframes/C3.png">
+                            <img src="../assets/img/freeze/wireframes/C3.png" width="200" height="355" alt="" class="img-thumbnail">
+
+                            <h4>Login - Client</h4>
+                        </a>
                     </div>
-					<div class="three">
-						<a href="assets/img/freeze/wireframes/C6.png">
-                        <img src="assets/img/freeze/wireframes/C6.png" width="200" height="355" alt="">
-                        <h4>Food Diet</h4></a>
+                    <div class="three">
+                        <a href="../assets/img/freeze/wireframes/C6.png">
+                            <img src="../assets/img/freeze/wireframes/C6.png" width="200" height="355" alt="">
+                            <h4>Food Diet</h4>
+                        </a>
                     </div>
-					<div class="three">
-						<a href="assets/img/freeze/wireframes/C9.png">
-                        <img src="assets/img/freeze/wireframes/C9.png" width="200" height="355" alt="">
-                        <h4>Trainer Evaluation</h4></a>
+                    <div class="three">
+                        <a href="../assets/img/freeze/wireframes/C9.png">
+                            <img src="../assets/img/freeze/wireframes/C9.png" width="200" height="355" alt="">
+                            <h4>Trainer Evaluation</h4>
+                        </a>
                     </div>
-					<div class="three">
-						<a href="assets/img/freeze/wireframes/C10.png">
-                        <img src="assets/img/freeze/wireframes/C10.png" width="200" height="355" alt="">
-                        <h4>Evaluation</h4></a>
+                    <div class="three">
+                        <a href="../assets/img/freeze/wireframes/C10.png">
+                            <img src="../assets/img/freeze/wireframes/C10.png" width="200" height="355" alt="">
+                            <h4>Evaluation</h4>
+                        </a>
                     </div>
-					<div class="three">
-						<a href="assets/img/freeze/wireframes/C11.png">
-                        <img src="assets/img/freeze/wireframes/C11.png" width="200" height="355" alt="">
-                        <h4>Evaluation Details</h4></a>
+                    <div class="three">
+                        <a href="../assets/img/freeze/wireframes/C11.png">
+                            <img src="../assets/img/freeze/wireframes/C11.png" width="200" height="355" alt="">
+                            <h4>Evaluation Details</h4>
+                        </a>
                     </div>
-                </div>-->
+                </div>
             </div>
         </section>
 
@@ -596,58 +621,54 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
-                        <div class="video-container" >
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5uMyNZxw9cg" frameborder="0" allowfullscreen></iframe><!--Aqui agregar el link del video-->
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5uMyNZxw9cg" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>		
-		
-		<section id="pricing" class="wrapper">
-			<div class="banner-overlay bg-color-grad"></div>
-			<div class="section-heading inverse scrollpoint sp-effect3">
-						<h1>Subscription Type</h1>
-						<div class="divider"></div>
-						<p>Choose one. Hurry up!</p>
-					</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-offset-2 col-md-8">
-						<ul class="pricing-table">
-							<li class="wow flipInY animated animated" style="visibility: visible;">
-								<h3>Gym Basic</h3>
-								<span> s/ 60.00 <small>per 8 months</small> </span>
-								<ul class="benefits-list" style="list-style-type:none">
-									<li>Access for 5 personal trainers</li>
-									<li>Availability for 10 clients</li>
-									<li>All app features</li>
-								</ul>
-							</li>
-							<li class="gold wow flipInY animated animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
-								<div class="stamp"><i class="fa fa-star-o"></i>Best choice</div>
-								<h3>Gym Pro</h3>
-								<span> s/ 80.00 <small>per 18 months</small> </span>
-								<ul class="benefits-list" style="list-style-type:none">
-									<li>Access for 10 personal trainers</li>
-									<li>Availability for 20 clients</li>
-									<li>All app features</li>									
-								</ul>
-							</li>
-							<li class="silver wow flipInY animated animated" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation-delay: 0.2s;">
-								<h3>Gym Premium</h3>
-								<span> s/ 100.00 <small>per 28 months</small> </span>
-								<ul class="benefits-list" style="list-style-type:none">
-									<li>Access for 15 personal trainers</li>
-									<li>Availability for 30 clients</li>
-									<li>All app features</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div> <!-- /.row -->
-			</div> <!-- /.container -->
-		</section>
+        </section>
+        
+        <section id="pricing" class="wrapper">
+            <div class="banner-overlay bg-color-grad"></div>
+            <div class="section-heading inverse scrollpoint sp-effect3">
+                <h1>Subscription Type</h1>
+                <div class="divider"></div>
+                <p>Choose one. Hurry up!</p>
+            </div>
+            <div class="container">
+                        <ul class="pricing-table">
+                            <li class="wow flipInY animated animated" style="visibility: visible;">
+                                <h3>Gym Basic</h3>
+                                <span> s/ 60.00 <small>per month</small> </span>
+                                <ul class="benefits-list" style="list-style-type:none">
+                                    <li>Access for 5 trainers</li>
+                                    <li>Availability for 10 clients</li>
+                                    <li>All app features</li>
+                                </ul>
+                            </li>
+                            <li class="gold wow flipInY animated animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                                <div class="stamp"><i class="fa fa-star-o"></i>Best choice</div>
+                                <h3>Gym Pro</h3>
+                                <span> s/ 80.00 <small>per month</small> </span>
+                                <ul class="benefits-list" style="list-style-type:none">
+                                    <li>Access for 10 trainers</li>
+                                    <li>Availability for 20 clients</li>
+                                    <li>All app features</li>
+                                </ul>
+                            </li>
+                            <li class="silver wow flipInY animated animated" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation-delay: 0.2s;">
+                                <h3>Gym Premium</h3>
+                                <span> s/ 100.00 <small>per month</small> </span>
+                                <ul class="benefits-list" style="list-style-type:none">
+                                    <li>Access for 15 trainers</li>
+                                    <li>Availability for 30 clients</li>
+                                    <li>All app features</li>
+                                </ul>
+                            </li>
+                        </ul>
+            </div> <!-- /.container -->
+        </section>
 
         <section id="contact" class="doublediagonal">
             <div class="container">
@@ -675,15 +696,15 @@
                             </div>
                             <div class="col-md-4 col-sm-4 contact-details scrollpoint sp-effect2">
                                 <div class="media">
-                                    <a class="pull-left" href="#" >
+                                    <a class="pull-left" href="#">
                                         <i class="fa fa-map-marker fa-2x"></i>
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">Prolong. Primavera 2390,<br>Santiago de Surco, Lima - Perú</h4>
                                     </div>
                                 </div>
-								<div class="media">
-                                    <a class="pull-left" href="#" >
+                                <div class="media">
+                                    <a class="pull-left" href="#">
                                         <i class="fa fa-phone fa-2x"></i>
                                     </a>
                                     <div class="media-body">
@@ -691,7 +712,7 @@
                                     </div>
                                 </div>
                                 <div class="media">
-                                    <a class="pull-left" href="#" >
+                                    <a class="pull-left" href="#">
                                         <i class="fa fa-globe fa-2x"></i>
                                     </a>
                                     <div class="media-body">
@@ -700,7 +721,7 @@
                                         </h4>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -711,7 +732,7 @@
         <footer>
             <div class="container">
                 <a href="#" class="scrollpoint sp-effect3">
-                    <img src="assets/img/freeze/logo2.png" alt="" class="logo">
+                    <img src="../assets/img/freeze/logo2.png" alt="" class="logo">
                 </a>
                 <div class="social">
                     <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
@@ -725,19 +746,19 @@
             </div>
         </footer>
 
-        
+
 
     </div>
-    <script src="assets/js/jquery-1.11.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/placeholdem.min.js"></script>
-    <script src="assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script src="assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <script src="../assets/js/jquery-1.11.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/placeholdem.min.js"></script>
+    <script src="../assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="../assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="../assets/js/waypoints.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             appMaster.preLoader();
         });
     </script>

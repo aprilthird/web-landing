@@ -145,7 +145,7 @@ header .navbar-default.scrolled ul.navbar-nav {
   opacity: 0;
 }
 .scrollpoint.active {
-  opacity: 1;
+  opacity: 1 \0;
 }
 .hanging-phone {
   position: absolute;
@@ -1206,7 +1206,6 @@ ul.pricing-table>li {
 	display:block;
 	position:relative;
 	z-index:1;
-	float:left;
 	width:30.66666%;
 	background:#fff;
 	color:#444;
@@ -1215,8 +1214,9 @@ ul.pricing-table>li {
 	text-align:center;
 }
 ul.pricing-table>li:last-child {
-	margin-right:0%;
+	margin-right:0;
 }
+
 ul.pricing-table .benefits-list{
 	padding: 0px;
 }
